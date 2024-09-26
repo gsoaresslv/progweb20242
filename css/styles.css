@@ -1,6 +1,10 @@
-body{
-    background-color: green;
+*{
+    margin: 1rem;
 }
-h1{
-    background-color: blue;
+img{
+    width: 25rem;
+    height: 25rem;
+}
+.center{
+    text-align: center;
 }
