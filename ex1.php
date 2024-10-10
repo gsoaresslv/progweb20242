@@ -6,12 +6,12 @@
         <title>Dia e Noite</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/ex1.css">
     </head>
     <body>
         <div class="center">
         <?php
-            $dateTime = new DateTime("now", new DateTimeZone('Asia/Tokyo'));
+            $dateTime = new DateTime("now", new DateTimeZone('America/Sao_Paulo'));
             $hora = $dateTime->format('H');
             if ($hora >= 6 && $hora < 12) {
                 echo "<h1>Bom dia!</h1>";
